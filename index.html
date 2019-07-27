@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>AIVD Driver</title>
+</head>
+<body>
+<p>Use WASD to steer. B emits beep, L toggles lights.</p>
+<hr>
+Websocket status:
+<br>
+<div id="ws-status"> Waiting... </div>
+<hr>
+<div>
+    <button id="alphaPark">Alpha Park</button>
+    <button id="alphaTurn">Alpha Turn</button>
+    <button id="platoonBtn">platoon</button>
+    <button id="ultrasonicTaskBtn">UltraSonic</button>
+    <button id="parallelParkBtn">Parallel Park</button>
+    <button id="garage">Garage Challenge</button>
+</div>
+<hr>
+<iframe id="stream" src="http://localhost:8081/stream" style="width:640px;height:480px;"></iframe>
+<script src="https://cdn.jsdelivr.net/gh/jquery/jquery@1.8.3/jquery.min.js"></script>
+<script src="{{ static_url("ws-client.js") }}"></script>
+</body>
+</html>
