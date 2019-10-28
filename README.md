@@ -1,4 +1,4 @@
-##Autonomous Vehicle##
+##Autonomous Vehicle
 
 During senior year of high school, I was on my school's autonomous vehicle team. The competition that was participated in during May involved 7 different events in which the car competed. Personally, I contributed to setting up the general Arduino code for the car to run, programmed the car for 3 of the events myself and contributed to 2 more of them. 
 
